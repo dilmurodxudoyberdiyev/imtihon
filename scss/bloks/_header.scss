@@ -1,0 +1,98 @@
+.logo_img{
+    max-width: 177px;
+}
+.site_header{
+    background-color: 
+    #FFFFFF;
+}
+.site_header_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.glavny:nth-child(1)::before{
+    content: '';
+    padding-right: 10px;
+    display: inline-block;
+    background-image: url("../../img/baliqch.svg");
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+.kontakt1::after{
+    content: "";
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image:url("../../img/pet.svg");
+    width: 50px;
+    height: 50px;
+    position: absolute;
+   right: 208px;
+  
+
+}
+.navbar_list{
+    display: flex;
+}
+.navbat_item{
+    margin-left: 55px;
+}
+.navbar_item_link{
+   font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+}
+.navbar_item_link:hover{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333; 
+}
+.navbar_item_link:active{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+    opacity: 0.6;
+}
+.kontaktt{
+    display: none;
+}
+@media only screen and(max-width:1213px){
+    .navbar_item_link{
+        font-size: 12px;
+    }
+}
+@media only screen and(max-width:1090px){
+    .logo_img{
+        max-width: 100px;
+    }
+}
+@media only screen and(max-width:1011px){
+    .navbar_item_link{
+        font-size: 8px;
+    }
+}
+@media only screen and(max-width:870px){
+    .navbat_item{
+        display: none;
+    }
+    .kontaktt{
+        display: block;
+    }
+    .kontakt1{
+        display: block;
+    }
+}
+@media only screen and(max-width:400px){
+    .navbat_item{
+        display: none;
+    }
+    .kontaktt{
+        display: block;
+    }
+    .kontakt1{
+        display: block;
+    }
+}

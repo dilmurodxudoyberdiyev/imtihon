@@ -1,0 +1,83 @@
+.kartaa{
+    max-width: 465px;
+}
+.google_karta_wrapper{
+    background-image: url("../../img/baliq1.jpg");
+    background-repeat: no-repeat;
+    max-width: 100%;
+   
+}
+.google_karta_box{
+ display: flex;   
+}
+.google_karta_titel{
+    margin-bottom: 14px;
+    padding-top: 62px;
+    padding-right: 500px;
+    padding-left: 165px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+.google_karta_text{
+    padding-left: 165px;
+    padding-right: 520px;
+    margin-bottom: 29px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+}
+.googel_karta_imput{
+    max-width: 375px;
+    padding: 16px 100px 13px 22px;
+    background: #FFFFFF;
+    border-radius: 0px;
+}
+.karta_imput{
+    max-width: 375px;
+    background: #FFFFFF;
+    border-radius: 0px;
+    padding: 16px 100px 13px 22px;
+}
+.formm{
+    padding-left: 165px;
+    margin-bottom: 14px;
+    display: flex;
+    flex-direction: column;
+}
+.form_text{
+    margin-bottom: 30px;
+    margin-left: 16%;
+    padding-left: 22px;
+    padding-right: 103px;
+    padding-top: 17px;
+    padding-bottom: 88px;
+    max-width: 375px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #949494;
+    background: #FFFFFF;
+    border-radius: 0px;
+}
+.google_link{
+    margin-left: 165px;
+    padding: 15px 49px;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: #FFBD54;
+    border-radius: 0px;
+    margin-bottom: 74px;
+}
+@media only screen and(max-width:611px){
+    .google_karta_box{
+       flex-direction: column;  
+       }
+}

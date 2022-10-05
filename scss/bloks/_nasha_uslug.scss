@@ -1,0 +1,129 @@
+.nasha_uslug_titel{
+    margin-bottom: 80px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 54px;
+    color: #333333;
+}
+.nasha_uslug{
+    margin-bottom: 235px;
+}
+.nasha_uslug_wrapper{
+    margin-bottom: 14px;
+}
+.nasha_uslug_box{
+    text-align: center;
+}
+.nasha_uslug_img{
+   max-width: 54px; 
+   margin-left: 70px;
+   padding-top: 30px;
+   margin-bottom: 22px;
+}
+.nasha_uslug_list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nasha_uslug_item{
+    width: 193px;
+    height:201px ;
+    gap: 13px;
+    background: #FFFFFF;
+    border: 1px solid #F3F3F3;
+    border-radius: 5px;
+}
+.nasha_uslug_text{
+    margin-left: 30px;
+}
+.uslug_img{
+    max-width: 590px;
+}
+.uslug_img_box{
+    margin-bottom: 18px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+}
+.uslug_img_text{
+    margin-bottom: 34px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+}
+.nasha_uslug_img1{
+    padding-bottom: 41px;
+   display: flex;
+   align-items:center;
+   justify-content: space-around;
+}
+.nasha_uslug_img2{
+   max-width: 490px;
+}
+.uznat_link{
+    padding: 15px 36px;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: #FFBD54;
+    border-radius: 3px;
+}
+.uznzt_na{
+    padding: 15px 37px;
+    margin-left: 21px;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: #333333;
+    border-radius: 3px;
+}
+@media only screen and(max-width:1250px){
+    .nasha_uslug_list{
+        flex-wrap: wrap;
+    }
+    .nasha_uslug_item{
+        margin-bottom: 30px;
+    }
+}
+@media only screen and(max-width:1080px){
+    .nasha_uslug_img1{
+        flex-wrap: wrap;
+    }
+    .uslug_img{
+        margin-bottom: 30px;
+    }
+}
+@media only screen and(max-width:611px){
+    .uslug_img_box{
+        margin-bottom: 30px;
+        font-size: 25px;
+       margin-left: 18%;
+    }
+    .uslug_img{
+        max-width: 350px;
+    }
+    .uslug_img_text{
+        font-size: 10px;
+        max-width: 350px;
+        text-align: center;
+    }
+    .uslug_img_link{
+        flex-wrap: wrap;
+
+    }
+    .uznat_link{
+        margin-bottom: 30px;
+       margin-left: 25%;
+    }
+    .uznzt_na{
+        margin-left: 15%;
+    }
+}
